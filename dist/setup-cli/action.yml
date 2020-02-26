@@ -1,5 +1,0 @@
-name: 'Deploy App'
-description: 'Deploys app using AIO CLI'
-runs:
-  using: 'node12'
-  main: 'index.js'

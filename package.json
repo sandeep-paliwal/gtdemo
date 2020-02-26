@@ -5,7 +5,7 @@
     "@zeit/ncc": "^0.20.5"
   },
   "scripts": {
-    "package": "ncc build setup-cli/setup.js -o dist/setup-cli/;ncc build build/build.js -o dist/build/"
+    "package": "ncc build setup-cli/setup.js -o dist/setup-cli/"
   },
   "dependencies": {
     "@actions/core": "^1.2.2",
