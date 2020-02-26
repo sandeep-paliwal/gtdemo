@@ -1,0 +1,14 @@
+{
+  "name": "gtdemo",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5"
+  },
+  "scripts": {
+    "package": "ncc build setup-cli/setup.js -o dist/setup-cli/;ncc build build/build.js -o dist/build/"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.0"
+  }
+}
